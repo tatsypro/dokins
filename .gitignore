@@ -1,22 +1,20 @@
+# Python
 __pycache__/
-*.py[cod]
-*$py.class
-
-venv/
-ENV/
-env/
-.venv/
-
-.env
-*.env
-
-.vscode/
-.DS_Store
-
+*.pyc
+*.pyo
+*.pyd
 *.sqlite3
-*.db
-*.log
 
-build/
-dist/
-*.egg-info/
+# Env & secrets
+.venv/
+.env
+.env.*
+
+# OS/IDE
+.DS_Store
+.vscode/
+.idea/
+
+# Logs & tmp
+*.log
+tmp/
