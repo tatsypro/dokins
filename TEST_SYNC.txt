@@ -1,1 +1,1 @@
-hello
+dokins sync test
